@@ -8,6 +8,10 @@
 <meta name="description" content="Для продавцов маркетплейсов: найдём удержания и штрафы Wildberries и Ozon, которые можно оспорить, подготовим претензии и вернём деньги.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -62,38 +66,68 @@
 </head>
 <body>
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Возврат удержаний</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Возврат удержаний</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Маркетплейс удержал деньги или выставил штраф? Найдём, что можно оспорить, и вернём</h1>
-    <p class="sub">Для продавцов Wildberries и Ozon: загрузите отчёты о реализации — найдём удержания и штрафы, которые можно оспорить, подготовим обращения в поддержку и претензии, а если нужно — иск. Платите небольшую фиксированную часть и процент от фактически возвращённого.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Мне это нужно</a>
-    <p class="cta-note">Сервис в подготовке · Оплата на этой странице не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для продавцов Wildberries и Ozon</p>
+      <h1 class="rise" style="--i:1" data-len="long">Маркетплейс удержал деньги или выставил штраф? Найдём, что можно оспорить, и вернём</h1>
+      <p class="rise" style="--i:2">Для продавцов Wildberries и Ozon: загрузите отчёты о реализации — найдём удержания и штрафы, которые можно оспорить, подготовим обращения в поддержку и претензии, а если нужно — иск. Платите небольшую фиксированную часть и процент от фактически возвращённого.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Мне это нужно</a>
+      <p class="meta rise" style="--i:4">Сервис в подготовке · Оплата на этой странице не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" fill="#0a1524" font-weight="600">Удержания</text><line x1="110" y1="214" x2="1090" y2="214" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#12397a" rx="8" /><text x="200" y="294" font-size="32" fill="#0a1524" font-weight="600">Разбор отчётов</text><rect x="130" y="350" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="384" font-size="32" fill="#0a1524" font-weight="600">Что можно оспорить</text><rect x="130" y="440" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="474" font-size="32" fill="#0a1524" font-weight="600">Исковое заявление</text><rect x="130" y="530" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="564" font-size="32" fill="#0a1524" font-weight="600">Если не вернули</text><rect x="700" y="260" width="370" height="400" fill="#dfe8f7" rx="20" /><text x="730" y="330" font-size="34" fill="#0a1524" font-weight="600">Претензия</text><rect x="740" y="450" width="48" height="160" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="818" y="510" width="48" height="100" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="896" y="400" width="48" height="210" fill="#12397a" rx="8" /><rect x="974" y="530" width="48" height="80" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>Продавцов Wildberries и Ozon</dd></div>
+      <div><dt>Найдём</dt><dd>Что можно оспорить</dd></div>
+      <div><dt>Загрузите</dt><dd>Отчёты о реализации</dd></div>
+      <div><dt>Пока</dt><dd>Услуга в подготовке</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Разбор отчётов</b><span>Отчёты о реализации разобраны: какие удержания и штрафы были и на каком основании.</span><br><a class="btn" href="price.html" data-ev="feature_analiz">Мне это нужно</a></div>
-      <div class="card"><b>Что можно оспорить</b><span>Список удержаний, которые расходятся с офертой или фактами, с суммами.</span><br><a class="btn" href="price.html" data-ev="feature_spornye">Мне это нужно</a></div>
-      <div class="card"><b>Обращения и претензии</b><span>Обращения в поддержку и претензии маркетплейсу с доказательствами.</span><br><a class="btn" href="price.html" data-ev="feature_obrashcheniya">Мне это нужно</a></div>
-      <div class="card"><b>Если не вернули</b><span>Исковое заявление и ведение дела, если маркетплейс отказал.</span><br><a class="btn" href="price.html" data-ev="feature_sud">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Разбор отчётов</text><rect x="140" y="206" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="210" y="216" width="230" height="24" fill="#dde2ea" rx="12" /><rect x="140" y="294" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="152,318 164,328 178,308" fill="none" stroke="#12397a" stroke-width="6" /><rect x="210" y="304" width="170" height="24" fill="#b9c3d2" rx="12" /><rect x="140" y="382" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="210" y="392" width="260" height="24" fill="#dde2ea" rx="12" /></svg></div>
+        <h3>Разбор отчётов</h3><p>Отчёты о реализации разобраны: какие удержания и штрафы были и на каком основании.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_analiz">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Что можно оспорить</text><rect x="120" y="200" width="230" height="270" fill="#ffffff" rx="14" stroke="#dde2ea" stroke-width="3" /><rect x="450" y="200" width="230" height="270" fill="#ffffff" rx="14" stroke="#dde2ea" stroke-width="3" /><line x1="350" y1="270" x2="450" y2="270" stroke="#b9c3d2" stroke-width="4" /><line x1="350" y1="330" x2="450" y2="330" stroke="#b9c3d2" stroke-width="4" /><line x1="350" y1="390" x2="450" y2="390" stroke="#12397a" stroke-width="4" /><rect x="150" y="240" width="160" height="16" fill="#dde2ea" rx="8" /><rect x="150" y="280" width="120" height="16" fill="#b9c3d2" rx="8" /><rect x="150" y="320" width="140" height="16" fill="#dde2ea" rx="8" /><rect x="480" y="240" width="150" height="16" fill="#dde2ea" rx="8" /><rect x="480" y="280" width="100" height="16" fill="#12397a" rx="8" /><rect x="480" y="320" width="130" height="16" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Что можно оспорить</h3><p>Список удержаний, которые расходятся с офертой или фактами, с суммами.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_spornye">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Обращения и претензии</text><rect x="120" y="210" width="210" height="250" fill="#ffffff" rx="14" stroke="#dde2ea" stroke-width="3" /><rect x="470" y="210" width="210" height="250" fill="#ffffff" rx="14" stroke="#dde2ea" stroke-width="3" /><polygon points="350,310 430,345 350,380" fill="#12397a" /><rect x="150" y="250" width="140" height="16" fill="#dde2ea" rx="8" /><rect x="150" y="290" width="100" height="16" fill="#b9c3d2" rx="8" /><rect x="500" y="250" width="140" height="16" fill="#dfe8f7" rx="8" /><rect x="500" y="290" width="110" height="16" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Обращения и претензии</h3><p>Обращения в поддержку и претензии маркетплейсу с доказательствами.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_obrashcheniya">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Если не вернули</text><rect x="230" y="250" width="360" height="230" fill="#dfe8f7" rx="16" /><rect x="160" y="210" width="360" height="230" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="190" y="250" width="200" height="16" fill="#dde2ea" rx="8" /><rect x="190" y="298" width="150" height="16" fill="#dde2ea" rx="8" /><rect x="190" y="346" width="230" height="16" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Если не вернули</h3><p>Исковое заявление и ведение дела, если маркетплейс отказал.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_sud">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">Продавец на Wildberries, отчёты за полгода. Найдено 37 удержаний на 184 тысячи: штрафы за «подмену товара» по возвратам, которые были приняты на склад без претензий, и логистика за возвраты покупателей. Обращения в поддержку — вернули часть, по остальным направлена претензия.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выберите вариант</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>Продавец на Wildberries, отчёты за полгода. Найдено 37 удержаний на 184 тысячи: штрафы за «подмену товара» по возвратам, которые были приняты на склад без претензий, и логистика за возвраты покупателей. Обращения в поддержку — вернули часть, по остальным направлена претензия.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выберите вариант</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">на Wildberries</text><circle cx="600" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">подмену товара</text><circle cx="960" cy="150" r="20" fill="#12397a" /><text x="960" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">без претензий</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="38" fill="#0a1524" font-weight="600">направлена претензия</text><text x="170" y="470" font-size="32" fill="#566174">за полгода</text><rect x="170" y="540" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="266" y="540" width="64" height="64" fill="#12397a" rx="12" /><rect x="362" y="540" width="64" height="64" fill="#dde2ea" rx="12" /><rect x="458" y="540" width="64" height="64" fill="#b9c3d2" rx="12" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>Продавцы маркетплейсов регулярно видят в отчётах удержания и штрафы, с которыми не согласны: штрафы за подмену товара, за неверные габариты, за поставку не в тот склад, списания за утерянный товар, повторную логистику. Продавцов на Ozon и Wildberries, по оценке Data Insight, в 2025 году было около 1,26 миллиона, и многие из них сталкиваются с такими удержаниями.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>Продавцы маркетплейсов регулярно видят в отчётах удержания и штрафы, с которыми не согласны: штрафы за подмену товара, за неверные габариты, за поставку не в тот склад, списания за утерянный товар, повторную логистику. Продавцов на Ozon и Wildberries, по оценке Data Insight, в 2025 году было около 1,26 миллиона, и многие из них сталкиваются с такими удержаниями.</p>
     <p>Часть удержаний действительно можно оспорить: они расходятся с условиями оферты или с фактами, например когда товар был принят на склад без претензий, а потом выставлен штраф. Но для этого нужно разобрать отчёты, найти основания, собрать доказательства и вести переписку с поддержкой. У большинства продавцов на это нет времени, и деньги остаются у площадки.</p>
     <p>Работа начинается с разбора. Вы загружаете отчёты о реализации и детализацию удержаний за нужный период. Каждое удержание и штраф раскладывается по видам и основаниям. В итоге вы видите список того, что можно оспорить, с суммами и шансами, и решаете, с чем идти дальше.</p>
     <p>По выбранным удержаниям готовятся обращения в поддержку маркетплейса с доказательствами: актами приёмки, фото, данными из личного кабинета. Многие вопросы решаются уже на этом этапе. Если поддержка отказывает, направляется претензия по условиям оферты.</p>
@@ -105,31 +139,34 @@
     <p>Если у вас несколько магазинов или юрлиц, удержания разбираются по каждому отдельно, а итог виден в одном отчёте. Если маркетплейс меняет условия оферты, мы учитываем новые правила при разборе следующих периодов и предупреждаем о новых видах удержаний.</p>
     <p>Для продавцов с большим оборотом можно начать с разбора за прошлые месяцы: старые удержания тоже можно оспорить, пока не истёк срок.</p>
     <p>Сайт сообщает о подготовке услуги и не является публичной офертой. Результат зависит от маркетплейса и суда; возврат конкретной суммы не гарантируется. Мы не связаны с Wildberries и Ozon.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Какие удержания можно оспорить?</h3>
-    <p>Те, что расходятся с условиями оферты или с фактами: например, штрафы по принятым без претензий поставкам.</p>
-    <h3>Какие документы нужны?</h3>
-    <p>Отчёты о реализации и детализация удержаний из личного кабинета за нужный период.</p>
-    <h3>Как формируется цена?</h3>
-    <p>Небольшая фиксированная часть за разбор и процент от фактически возвращённых денег.</p>
-    <h3>Что если поддержка отказала?</h3>
-    <p>Направляется претензия, а при необходимости — иск.</p>
-    <h3>Можно ли воспользоваться уже сейчас?</h3>
-    <p>Пока нет. Услуга в подготовке, мы проверяем, нужна ли она продавцам.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Какие удержания можно оспорить?</h3><p>Те, что расходятся с условиями оферты или с фактами: например, штрафы по принятым без претензий поставкам.</p></div>
+      <div class="split flip"><h3>Какие документы нужны?</h3><p>Отчёты о реализации и детализация удержаний из личного кабинета за нужный период.</p></div>
+      <div class="split flip"><h3>Как формируется цена?</h3><p>Небольшая фиксированная часть за разбор и процент от фактически возвращённых денег.</p></div>
+      <div class="split flip"><h3>Что если поддержка отказала?</h3><p>Направляется претензия, а при необходимости — иск.</p></div>
+      <div class="split flip"><h3>Можно ли воспользоваться уже сейчас?</h3><p>Пока нет. Услуга в подготовке, мы проверяем, нужна ли она продавцам.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Загрузите отчёты</h2>
-    <p><label>Маркетплейс<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>Wildberries</option><option>Ozon</option><option>Оба</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Загрузить отчёты</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Загрузите отчёты</h2>
+    </div>
+    <div class="tile stack">
+      <label>Маркетплейс<select data-ev-focus="form_start"><option value="">— выберите —</option><option>Wildberries</option><option>Ozon</option><option>Оба</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Загрузить отчёты</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Возврат удержаний</b></p>
   <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
-  <p class="muted">Сайт сообщает о подготовке услуги и не является публичной офертой. Возврат конкретной суммы не гарантируется. Мы не связаны с Wildberries и Ozon.</p>
+  <p>Сайт сообщает о подготовке услуги и не является публичной офертой. Возврат конкретной суммы не гарантируется. Мы не связаны с Wildberries и Ozon.</p>
 </div></footer>
 
 </body>
